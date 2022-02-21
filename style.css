@@ -1,0 +1,35 @@
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.users__list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background: #edfad7;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+.users__data{
+    max-width:300px;
+   margin-top: 16px;
+   margin-bottom: 16px;
+}
+
+img{
+size: 270px;
+}
+
+.text__company{
+    max-width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
